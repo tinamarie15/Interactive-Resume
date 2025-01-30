@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100;
+    background:url(BG\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: auto;
+    text-align: center;
+}
+
+.greet{
+    font-size: 7rem;
+    color: #ffffff;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.opening{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin: 0;
+
+}
+
+button{
+    width: 12rem;
+    height: 3.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button :hover{
+    background-color: #45a049;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.container{
+    width: 100;
+    background:url(BG\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set {
+    width: auto;
+    text-align: center;
+}
+
+.stage{
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.info{
+    font-size: 10rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin: 0;
+}
+
+.person{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    width: 300px;
+    height: auto;
+    
+
+}
